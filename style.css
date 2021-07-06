@@ -46,9 +46,10 @@ img{
 
 
 /*---TopBar-area_Start---------------*/
-.topbar-note h2{
+.topbar-note h2 {
     font-family: 'Niconne', cursive;
     font-size: 30px;
+    color: #575757;
 }
 .topbar-note h2 span{
     color: orange;
@@ -58,6 +59,7 @@ img{
 }
 .topbar-address h4 {
     padding-top: 10px;
+    color: #575757;
 }
 /*---TopBar-area_End---------------*/
 
@@ -102,6 +104,7 @@ input#search {
 }
 .schedule h2 {
     font-size: 16px;
+    color: #575757;
 }
 /*---Logo-area_End---------------*/
 
