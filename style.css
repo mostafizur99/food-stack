@@ -1,0 +1,300 @@
+/*---Default-CSS_Start---------------**/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 18px;
+}
+.heading {
+    font-size: 40px;
+    color: #707070;
+    margin-bottom: 20px;
+}
+.flexed{
+    display: flex;
+}
+.width50 {
+    width: 50%;
+    margin-left: 100px;
+}
+.width33{
+    width: 33%;
+}
+.centered{
+    text-align: center;
+}
+img{
+    width: 80%;
+}
+.button-default {
+    text-decoration: none;
+    background: linear-gradient(90deg, #FBA24F, #FF1E1E);
+    padding: 24px 32px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 100px;
+    box-shadow: 0px 2px 30px 0px #FC8F4980;
+}
+
+/*----Default-CSS_End---------------*/
+
+
+/*---TopBar-area_Start---------------*/
+.topbar-note h2{
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+}
+.topbar-note h2 span{
+    color: orange;
+}
+.topbar-address span{
+    color: orange;
+}
+.topbar-address h4 {
+    padding-top: 10px;
+}
+/*---TopBar-area_End---------------*/
+
+
+/*---Logo-area_Start---------------*/
+section.logo-area {
+    background: #f9f9f9;
+    padding: 12px 60px;
+}
+.logo-text {
+    width: 85px;
+    height: 85px;
+    background: linear-gradient(90deg, rgb(251, 162, 79), rgb(255, 30, 30));
+    border-radius: 50%;
+    padding: 35px;
+    margin-top: -78px;
+    margin-left: 30px;
+}
+.logo-text h1 {
+    margin: 0;
+    font-family: 'Niconne', cursive;
+    font-size: 35px;
+    color: #4e4545;
+}
+.search {
+    padding: 22px 0px;
+    margin-left: 90px;
+}
+input#search {
+    width: 45%;
+    padding: 10px 10px 10px 50px;
+    border: 2px solid tomato;
+    border-radius: 20px;
+    font-size: 16px;
+    background: #fff;
+    background-image: url(./images/searchicon.png);
+    background-repeat: no-repeat;
+    background-position: 20px 10px;
+}
+.schedule {
+    margin-left: 170px;
+}
+.schedule h2 {
+    font-size: 16px;
+}
+/*---Logo-area_End---------------*/
+
+
+/*---Banner-area_Start---------------*/
+.banner-area {
+    padding: 80px 0;
+    /* padding-top: 80px; */
+}
+.banner-text {
+    margin-top: 10%;
+}
+.banner-text h1{
+    color: #575757;
+}
+.banner-text span{
+    color: #FBA24F;
+}
+.banner-text p {
+    color: rgb(130, 130, 130);
+    font-size: 20px;
+    margin-bottom: 50px;
+    line-height: 32px;
+}
+
+/*---Banner-area_End---------------*/
+
+
+
+
+/*---About-area_Start---------------*/
+.about-area {
+    padding-top: 80px;
+    background-image: url(./images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-image {
+    padding-left: 75px;
+}
+.about-image img {
+    width: 70%;
+}
+.about-text.width50 {
+    padding: 10px 70px;
+}
+.about-text p {
+    font-size: 18px;
+    color: #18191F;
+    margin-bottom: 90px;
+    line-height: 32px;
+}
+/*---About-area_End---------------*/
+
+
+
+/*---Recipe-area_Start---------------*/
+section.recipe-area {
+    padding: 20px 75px;
+}
+.recipe-head {
+    padding: 10px 250px;
+}
+.recipe-head p{
+    color: #252525;
+    line-height: 25px;
+}
+.recipe-item {
+    box-shadow: 0px 0px 40px 0px #00000026;
+    margin: 25px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.recipe-image img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.recipe-item h3{
+    font-size: 28px;
+    color: #18191F;
+}
+.recipe-item p {
+    color: #18191F;
+    line-height: 32px;
+}
+/*---Recipe-area_End---------------*/
+
+
+
+/*---Followers-area_Start---------------*/
+.followers-area {
+    padding: 80px 100px;
+}
+.followers-body {
+    padding: 64px 50px;
+    box-shadow: 0px 0px 40px 0px #0000001A;
+    border-radius: 20px;
+}
+.followers-item h1 {
+    font-size: 48px;
+    color: #18191F;
+    margin: 0 0 10px 0;
+}
+.followers-item p {
+    font-size: 16px;
+    color: #18191F;
+    margin: 0;
+}
+/*---Followers-area_End---------------*/
+
+
+/*---Footer-area_Start---------------*/
+.footer-area {
+    background-color: black;
+    padding: 20px 10px 70px 10px;
+}
+.footer-area span{
+    color: orange;
+}
+.footer-area p{
+    color: gray;
+}
+/*---Footer-area_End---------------*/
+
+
+/*---Contact-area_Start---------------*/
+.offfer-area {
+    background-image: url(./images/Project\ Cover8.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px 60px;
+}
+.offer-box {
+    background-color: #707070cc;
+    border-radius: 50%;
+    width: 700px;
+    height: 320px;
+    padding: 100px 0 140px 0;
+    color: #fff;
+}
+.offer-box h3 {
+    font-family: 'Niconne', cursive;
+    font-size: 32px;
+    margin: 0;
+}
+.offer-box h1 {
+    margin: 40px 0;
+    font-size: 35px;
+}
+.offer-box p {
+    margin: 10px;
+    font-weight: 700;
+}
+.form-item{
+    margin-bottom: 10px;
+}
+input#email {
+    width: 35%;
+    height: 35px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    color: orange;
+    background: transparent;
+    font-weight: 700;
+    font-size: 18px;
+}
+input#email:focus {
+    border: 2px solid #FF1E1E;
+  }
+  textarea#message:focus {
+    border: 2px solid #FF1E1E;
+  }
+textarea#message {
+    border-radius: 20px;
+    border: 2px solid #fff;
+    color: orange;
+    background: transparent;
+    font-weight: 700;
+    font-size: 18px;
+}
+.form-item ::placeholder { 
+    color: #fff;
+    opacity: 1;
+  }
+.button-form {
+    text-decoration: none;
+    background: linear-gradient(90deg, #FBA24F, #FF1E1E);
+    padding: 8px 26px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 100px;
+    box-shadow: 0px 2px 30px 0px #FC8F4980;
+    border: none;
+}
+/*---Contact-area_End---------------*/
